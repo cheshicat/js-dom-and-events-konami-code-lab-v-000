@@ -5,7 +5,7 @@ let index = 0;
 function init() {
   document.body.addEventListener('keydown', onKeyDownHandler)
   function onKeyDownHandler(e) {
-  //  const key = parseInt(e.detail || e.which);
+    const key = parseInt(e.detail || e.which);
 
 //    if (key === alphabet[index]) {
   //    index++;
